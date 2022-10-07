@@ -1,0 +1,31 @@
+package asrreyclassification11;
+
+public class Count_Case {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s= "JASDJfdfsklfjj#$%%^^&%$#JLODD";
+		 int lowercase=0;
+		 int uppercase=0;
+		 int symbol=0;
+		 for (int i=0;i<s.length();i++) {
+			 if (s.charAt(i)>='a' && s.charAt(i)<='z') {
+				 lowercase++;
+			 }else if (s.charAt (i)>='A' && s.charAt(i)<='Z') {
+				 uppercase++;
+			 
+			 } else { 
+				 symbol++;}
+			 
+		 System.out.println("no. of lowercase:"+ lowercase );
+		 System.out.println("no. of uppercase:"+ uppercase );
+		 System.out.println("no.of symbol:"+ symbol);
+		 
+		 }
+		 
+			}
+
+
+	}
+
+
